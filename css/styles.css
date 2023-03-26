@@ -2,9 +2,23 @@
   background-color: #ff4c68;
 }
 
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.hover-outline:hover {
+  background-color: transparent;
+  outline: 1px solid black;
+  color: black;
+}
+.img-cellphone {
+  transform: rotate(25deg);
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
+  color: white;
 }
